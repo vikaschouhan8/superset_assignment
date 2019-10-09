@@ -1,0 +1,7 @@
+#!/Users/Vikas/Documents/companyAssignment/newEnv/bin/python3.7
+# EASY-INSTALL-DEV-SCRIPT: 'apache-superset==0.999.0.dev0','superset'
+__requires__ = 'apache-superset==0.999.0.dev0'
+__import__('pkg_resources').require('apache-superset==0.999.0.dev0')
+__file__ = '/Users/Vikas/Documents/companyAssignment/newEnv/incubator-superset/superset/bin/superset'
+with open(__file__) as f:
+    exec(compile(f.read(), __file__, 'exec'))
